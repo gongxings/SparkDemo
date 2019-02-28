@@ -1,0 +1,22 @@
+1、变量的声明
+val
+var
+2、七种数据类型(无引用类型)
+Byte
+short
+
+3、所有类的基类是Any
+
+4、声明定长数组
+ val arr1= new Array[Int](8)
+ //打印数组
+ println(arr1.toBuffer)
+ //数组中第二个元素
+ println(arr2(2))
+
+ 变长数组 ArrayBuffer[Int]()
+
+ 5、映射
+ val map1=Map("scala"->1,"java"->2)
+ 用元组构建
+ val map2=Map(("scala",1),("java",878))
